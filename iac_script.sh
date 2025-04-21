@@ -20,7 +20,7 @@ groups_len=${#groups[@]}
 users_len=${#users[@]}
 
 if [ $(($users_len % 2)) != 0 ]; then
-    echo -e "[ERROR]: User without group\n"
+    echo -e "[Erro]: Usuário sem grupo.\n"
     exit 1
 fi
 
